@@ -28,9 +28,9 @@ class TaskTwoFiveViewController: UIViewController {
 }
 
 let vc = TaskTwoFiveViewController()
-print(1)
+//print(1)
 let view = vc.view
-print(7)
+//print(7)
 
 
 //1, 2, 6, 7, 3, 4, 5
