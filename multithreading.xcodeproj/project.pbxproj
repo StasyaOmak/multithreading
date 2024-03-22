@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F4FB8DE2BAD60A6007F8868 /* TaskFourOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB8DD2BAD60A6007F8868 /* TaskFourOneViewController.swift */; };
+		6F4FB8E02BAD6127007F8868 /* TaskFourTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB8DF2BAD6127007F8868 /* TaskFourTwoViewController.swift */; };
+		6F4FB8E22BAD7C85007F8868 /* TaskFourThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB8E12BAD7C85007F8868 /* TaskFourThreeViewController.swift */; };
+		6F4FB8E42BAD813A007F8868 /* TaskFourFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB8E32BAD813A007F8868 /* TaskFourFourViewController.swift */; };
 		6FC512C22BA8802400F82319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512C12BA8802400F82319 /* AppDelegate.swift */; };
 		6FC512C42BA8802400F82319 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512C32BA8802400F82319 /* SceneDelegate.swift */; };
-		6FC512C62BA8802400F82319 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512C52BA8802400F82319 /* ViewController.swift */; };
 		6FC512C92BA8802400F82319 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6FC512C82BA8802400F82319 /* Base */; };
 		6FC512CC2BA8802400F82319 /* multithreading.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512CA2BA8802400F82319 /* multithreading.xcdatamodeld */; };
 		6FC512CE2BA8802600F82319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC512CD2BA8802600F82319 /* Assets.xcassets */; };
@@ -17,10 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F4FB8DD2BAD60A6007F8868 /* TaskFourOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFourOneViewController.swift; sourceTree = "<group>"; };
+		6F4FB8DF2BAD6127007F8868 /* TaskFourTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFourTwoViewController.swift; sourceTree = "<group>"; };
+		6F4FB8E12BAD7C85007F8868 /* TaskFourThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFourThreeViewController.swift; sourceTree = "<group>"; };
+		6F4FB8E32BAD813A007F8868 /* TaskFourFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFourFourViewController.swift; sourceTree = "<group>"; };
 		6FC512BE2BA8802400F82319 /* multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multithreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC512C12BA8802400F82319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FC512C32BA8802400F82319 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6FC512C52BA8802400F82319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6FC512C82BA8802400F82319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FC512CB2BA8802400F82319 /* multithreading.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = multithreading.xcdatamodel; sourceTree = "<group>"; };
 		6FC512CD2BA8802600F82319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +66,10 @@
 			children = (
 				6FC512C12BA8802400F82319 /* AppDelegate.swift */,
 				6FC512C32BA8802400F82319 /* SceneDelegate.swift */,
-				6FC512C52BA8802400F82319 /* ViewController.swift */,
+				6F4FB8DD2BAD60A6007F8868 /* TaskFourOneViewController.swift */,
+				6F4FB8DF2BAD6127007F8868 /* TaskFourTwoViewController.swift */,
+				6F4FB8E12BAD7C85007F8868 /* TaskFourThreeViewController.swift */,
+				6F4FB8E32BAD813A007F8868 /* TaskFourFourViewController.swift */,
 				6FC512C72BA8802400F82319 /* Main.storyboard */,
 				6FC512CD2BA8802600F82319 /* Assets.xcassets */,
 				6FC512CF2BA8802600F82319 /* LaunchScreen.storyboard */,
@@ -142,9 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FC512CC2BA8802400F82319 /* multithreading.xcdatamodeld in Sources */,
-				6FC512C62BA8802400F82319 /* ViewController.swift in Sources */,
 				6FC512C22BA8802400F82319 /* AppDelegate.swift in Sources */,
+				6F4FB8E22BAD7C85007F8868 /* TaskFourThreeViewController.swift in Sources */,
+				6F4FB8DE2BAD60A6007F8868 /* TaskFourOneViewController.swift in Sources */,
 				6FC512C42BA8802400F82319 /* SceneDelegate.swift in Sources */,
+				6F4FB8E02BAD6127007F8868 /* TaskFourTwoViewController.swift in Sources */,
+				6F4FB8E42BAD813A007F8868 /* TaskFourFourViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
