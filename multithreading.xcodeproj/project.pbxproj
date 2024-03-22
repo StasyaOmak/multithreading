@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F4FB8CE2BAC0A5E007F8868 /* TaskThreeOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB8CD2BAC0A5E007F8868 /* TaskThreeOneViewController.swift */; };
+		6F4FB8D02BAC1501007F8868 /* TaskThreeTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB8CF2BAC1501007F8868 /* TaskThreeTwoViewController.swift */; };
+		6F4FB8D22BAC1575007F8868 /* TaskThreeThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB8D12BAC1575007F8868 /* TaskThreeThreeViewController.swift */; };
+		6F4FB8D42BAC1DD5007F8868 /* TaskThreeFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB8D32BAC1DD5007F8868 /* TaskThreeFourViewController.swift */; };
+		6F4FB8D62BAC1EC3007F8868 /* TaskThreeFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB8D52BAC1EC3007F8868 /* TaskThreeFiveViewController.swift */; };
+		6F4FB8DA2BACCF21007F8868 /* TaskThreeSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB8D92BACCF21007F8868 /* TaskThreeSixViewController.swift */; };
+		6F4FB8DC2BACD1BE007F8868 /* TaskThreeSevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FB8DB2BACD1BE007F8868 /* TaskThreeSevenViewController.swift */; };
 		6FC512C22BA8802400F82319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512C12BA8802400F82319 /* AppDelegate.swift */; };
 		6FC512C42BA8802400F82319 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512C32BA8802400F82319 /* SceneDelegate.swift */; };
-		6FC512C62BA8802400F82319 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512C52BA8802400F82319 /* ViewController.swift */; };
 		6FC512C92BA8802400F82319 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6FC512C82BA8802400F82319 /* Base */; };
 		6FC512CC2BA8802400F82319 /* multithreading.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512CA2BA8802400F82319 /* multithreading.xcdatamodeld */; };
 		6FC512CE2BA8802600F82319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC512CD2BA8802600F82319 /* Assets.xcassets */; };
@@ -17,10 +23,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F4FB8CD2BAC0A5E007F8868 /* TaskThreeOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeOneViewController.swift; sourceTree = "<group>"; };
+		6F4FB8CF2BAC1501007F8868 /* TaskThreeTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeTwoViewController.swift; sourceTree = "<group>"; };
+		6F4FB8D12BAC1575007F8868 /* TaskThreeThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeThreeViewController.swift; sourceTree = "<group>"; };
+		6F4FB8D32BAC1DD5007F8868 /* TaskThreeFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeFourViewController.swift; sourceTree = "<group>"; };
+		6F4FB8D52BAC1EC3007F8868 /* TaskThreeFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeFiveViewController.swift; sourceTree = "<group>"; };
+		6F4FB8D92BACCF21007F8868 /* TaskThreeSixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeSixViewController.swift; sourceTree = "<group>"; };
+		6F4FB8DB2BACD1BE007F8868 /* TaskThreeSevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeSevenViewController.swift; sourceTree = "<group>"; };
 		6FC512BE2BA8802400F82319 /* multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multithreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC512C12BA8802400F82319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FC512C32BA8802400F82319 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6FC512C52BA8802400F82319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6FC512C82BA8802400F82319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FC512CB2BA8802400F82319 /* multithreading.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = multithreading.xcdatamodel; sourceTree = "<group>"; };
 		6FC512CD2BA8802600F82319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +72,13 @@
 			children = (
 				6FC512C12BA8802400F82319 /* AppDelegate.swift */,
 				6FC512C32BA8802400F82319 /* SceneDelegate.swift */,
-				6FC512C52BA8802400F82319 /* ViewController.swift */,
+				6F4FB8CD2BAC0A5E007F8868 /* TaskThreeOneViewController.swift */,
+				6F4FB8CF2BAC1501007F8868 /* TaskThreeTwoViewController.swift */,
+				6F4FB8D12BAC1575007F8868 /* TaskThreeThreeViewController.swift */,
+				6F4FB8D32BAC1DD5007F8868 /* TaskThreeFourViewController.swift */,
+				6F4FB8D52BAC1EC3007F8868 /* TaskThreeFiveViewController.swift */,
+				6F4FB8D92BACCF21007F8868 /* TaskThreeSixViewController.swift */,
+				6F4FB8DB2BACD1BE007F8868 /* TaskThreeSevenViewController.swift */,
 				6FC512C72BA8802400F82319 /* Main.storyboard */,
 				6FC512CD2BA8802600F82319 /* Assets.xcassets */,
 				6FC512CF2BA8802600F82319 /* LaunchScreen.storyboard */,
@@ -141,9 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F4FB8D22BAC1575007F8868 /* TaskThreeThreeViewController.swift in Sources */,
+				6F4FB8DC2BACD1BE007F8868 /* TaskThreeSevenViewController.swift in Sources */,
+				6F4FB8D02BAC1501007F8868 /* TaskThreeTwoViewController.swift in Sources */,
 				6FC512CC2BA8802400F82319 /* multithreading.xcdatamodeld in Sources */,
-				6FC512C62BA8802400F82319 /* ViewController.swift in Sources */,
+				6F4FB8CE2BAC0A5E007F8868 /* TaskThreeOneViewController.swift in Sources */,
+				6F4FB8DA2BACCF21007F8868 /* TaskThreeSixViewController.swift in Sources */,
+				6F4FB8D62BAC1EC3007F8868 /* TaskThreeFiveViewController.swift in Sources */,
 				6FC512C22BA8802400F82319 /* AppDelegate.swift in Sources */,
+				6F4FB8D42BAC1DD5007F8868 /* TaskThreeFourViewController.swift in Sources */,
 				6FC512C42BA8802400F82319 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
