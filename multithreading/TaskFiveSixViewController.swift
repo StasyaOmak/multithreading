@@ -5,25 +5,50 @@
 //  Created by Anastasiya Omak on 25/03/2024.
 //
 
+/*
+ А теперь этот же метод обработать через withChecked ThrowingContinuation на случай если messages.isEmpty o continuation.resume(throwing: a если не пустой то resume(returning:.
+ */
+
+/*
+ if messages.isEmpty {
+      continuation.resume(throwing: ...
+ } else {
+     resume(returning:...
+ }
+ */
+
 import UIKit
 
-class TaskFiveSixViewController: UIViewController {
+enum MessagesError: Error {
+    case empty
+    case failedToLoad
+}
 
+final class TaskFiveSixViewController: UIViewController {
+    
+    var networkService = NetworkService()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        Task {
+            do {
+                print(try await fetchMessages())
+            } catch {
+                print(error)
+            }
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func fetchMessages() async throws -> [Message] {
+        try await withCheckedThrowingContinuation { continutaion in
+            networkService.fetchMessages { messages in
+                if messages.isEmpty {
+                    continutaion.resume(throwing: MessagesError.empty)
+                } else {
+                    continutaion.resume(returning: messages)
+                }
+            }
+        }
     }
-    */
-
 }

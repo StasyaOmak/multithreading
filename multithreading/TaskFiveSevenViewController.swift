@@ -5,25 +5,40 @@
 //  Created by Anastasiya Omak on 25/03/2024.
 //
 
+/*
+ Наберите задачу. Разберитесь как работает. Отмените задачу fetchTask.
+ */
+
 import UIKit
 
 class TaskFiveSevenViewController: UIViewController {
-
+    
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+            super.viewDidLoad()
+        
+        Task {
+            await getAverageTemperature()
+        }
     }
     
+    func getAverageTemperature() async {
+        let fetchTask = Task { () -> Double in
+            let url = URL(string: "https://hws.dev/readings.json")!
+            let (data, _) = try await URLSession.shared.data(from: url)
+            let readings = try JSONDecoder().decode([Double].self, from: data)
+            let sum = readings.reduce(0, +)
+            return sum / Double(readings.count)
+        }
+        
+       // Тут отмените задачу
+        fetchTask.cancel()
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        do {
+            let result = try await fetchTask.value
+            print("Average temperature: \(result)")
+        } catch {
+            print("Failed to get data.")
+        }
     }
-    */
-
 }
