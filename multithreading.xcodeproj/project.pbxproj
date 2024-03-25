@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F6D63002BB13C0E006129D2 /* TaskFiveOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6D62FF2BB13C0E006129D2 /* TaskFiveOneViewController.swift */; };
+		6F6D63022BB13E52006129D2 /* TaskFiveTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6D63012BB13E52006129D2 /* TaskFiveTwoViewController.swift */; };
 		6FC512C22BA8802400F82319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512C12BA8802400F82319 /* AppDelegate.swift */; };
 		6FC512C42BA8802400F82319 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512C32BA8802400F82319 /* SceneDelegate.swift */; };
-		6FC512C62BA8802400F82319 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512C52BA8802400F82319 /* ViewController.swift */; };
 		6FC512C92BA8802400F82319 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6FC512C82BA8802400F82319 /* Base */; };
 		6FC512CC2BA8802400F82319 /* multithreading.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FC512CA2BA8802400F82319 /* multithreading.xcdatamodeld */; };
 		6FC512CE2BA8802600F82319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC512CD2BA8802600F82319 /* Assets.xcassets */; };
 		6FC512D12BA8802600F82319 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6FC512D02BA8802600F82319 /* Base */; };
+		6FF349C82BB143D1006F5E40 /* TaskFiveThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF349C72BB143D1006F5E40 /* TaskFiveThreeViewController.swift */; };
+		6FF349CA2BB14415006F5E40 /* TaskFiveFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF349C92BB14415006F5E40 /* TaskFiveFourViewController.swift */; };
+		6FF349CC2BB1469D006F5E40 /* TaskFiveFiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF349CB2BB1469D006F5E40 /* TaskFiveFiveViewController.swift */; };
+		6FF349CE2BB146F0006F5E40 /* TaskFiveSixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF349CD2BB146F0006F5E40 /* TaskFiveSixViewController.swift */; };
+		6FF349D02BB14780006F5E40 /* TaskFiveSevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF349CF2BB14780006F5E40 /* TaskFiveSevenViewController.swift */; };
+		6FF349D22BB147FF006F5E40 /* TaskFiveEightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF349D12BB147FF006F5E40 /* TaskFiveEightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F6D62FF2BB13C0E006129D2 /* TaskFiveOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiveOneViewController.swift; sourceTree = "<group>"; };
+		6F6D63012BB13E52006129D2 /* TaskFiveTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiveTwoViewController.swift; sourceTree = "<group>"; };
 		6FC512BE2BA8802400F82319 /* multithreading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multithreading.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC512C12BA8802400F82319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FC512C32BA8802400F82319 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6FC512C52BA8802400F82319 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6FC512C82BA8802400F82319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FC512CB2BA8802400F82319 /* multithreading.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = multithreading.xcdatamodel; sourceTree = "<group>"; };
 		6FC512CD2BA8802600F82319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FC512D02BA8802600F82319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FC512D22BA8802600F82319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF349C72BB143D1006F5E40 /* TaskFiveThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiveThreeViewController.swift; sourceTree = "<group>"; };
+		6FF349C92BB14415006F5E40 /* TaskFiveFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiveFourViewController.swift; sourceTree = "<group>"; };
+		6FF349CB2BB1469D006F5E40 /* TaskFiveFiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiveFiveViewController.swift; sourceTree = "<group>"; };
+		6FF349CD2BB146F0006F5E40 /* TaskFiveSixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiveSixViewController.swift; sourceTree = "<group>"; };
+		6FF349CF2BB14780006F5E40 /* TaskFiveSevenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiveSevenViewController.swift; sourceTree = "<group>"; };
+		6FF349D12BB147FF006F5E40 /* TaskFiveEightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFiveEightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +74,14 @@
 			children = (
 				6FC512C12BA8802400F82319 /* AppDelegate.swift */,
 				6FC512C32BA8802400F82319 /* SceneDelegate.swift */,
-				6FC512C52BA8802400F82319 /* ViewController.swift */,
+				6F6D62FF2BB13C0E006129D2 /* TaskFiveOneViewController.swift */,
+				6F6D63012BB13E52006129D2 /* TaskFiveTwoViewController.swift */,
+				6FF349C72BB143D1006F5E40 /* TaskFiveThreeViewController.swift */,
+				6FF349C92BB14415006F5E40 /* TaskFiveFourViewController.swift */,
+				6FF349CB2BB1469D006F5E40 /* TaskFiveFiveViewController.swift */,
+				6FF349CD2BB146F0006F5E40 /* TaskFiveSixViewController.swift */,
+				6FF349CF2BB14780006F5E40 /* TaskFiveSevenViewController.swift */,
+				6FF349D12BB147FF006F5E40 /* TaskFiveEightViewController.swift */,
 				6FC512C72BA8802400F82319 /* Main.storyboard */,
 				6FC512CD2BA8802600F82319 /* Assets.xcassets */,
 				6FC512CF2BA8802600F82319 /* LaunchScreen.storyboard */,
@@ -141,10 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF349CE2BB146F0006F5E40 /* TaskFiveSixViewController.swift in Sources */,
+				6FF349C82BB143D1006F5E40 /* TaskFiveThreeViewController.swift in Sources */,
+				6F6D63002BB13C0E006129D2 /* TaskFiveOneViewController.swift in Sources */,
+				6FF349CC2BB1469D006F5E40 /* TaskFiveFiveViewController.swift in Sources */,
+				6FF349CA2BB14415006F5E40 /* TaskFiveFourViewController.swift in Sources */,
+				6FF349D22BB147FF006F5E40 /* TaskFiveEightViewController.swift in Sources */,
+				6FF349D02BB14780006F5E40 /* TaskFiveSevenViewController.swift in Sources */,
 				6FC512CC2BA8802400F82319 /* multithreading.xcdatamodeld in Sources */,
-				6FC512C62BA8802400F82319 /* ViewController.swift in Sources */,
 				6FC512C22BA8802400F82319 /* AppDelegate.swift in Sources */,
 				6FC512C42BA8802400F82319 /* SceneDelegate.swift in Sources */,
+				6F6D63022BB13E52006129D2 /* TaskFiveTwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
